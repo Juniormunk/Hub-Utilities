@@ -1,0 +1,122 @@
+main: juniormunk.hub.Main
+name: Hub
+version: 1.0
+author: Juniormunk
+description: allows users to use the /hub command and /server command as if multiverse was bungee
+softdepend: [Multiverse-Core]
+commands:
+  hub:
+    description: Teleports you to the hub
+    usage: /hub
+    permission: hub.hub
+    permission-message: You don't have this permission.
+  sethub:
+    description: Teleports you to the hub
+    usage: /sethub
+    permission: hub.sethub
+    permission-message: You don't have this permission.
+  spawn:
+    description: Teleports you to the spawn
+    usage: /spawn
+    permission: hub.spawn
+    permission-message: You don't have this permission.
+  setspawn:
+    description: Allows you to set the world spawn.
+    usage: /setspawn
+    permission: hub.setspawn
+    permission-message: You don't have this permission.
+  tpa:
+    description: Allows you to teleport to another player.
+    usage: /tpa [player]
+    permission: hub.tpa
+    permission-message: You don't have this permission.
+  tpahere:
+    description: Allows you to teleport another player to you.
+    usage: /tpahere [player]
+    permission: hub.tpahere
+    permission-message: You don't have this permission.
+  tpdeny:
+    description: Allows you to deny a teleport.
+    usage: /tpdeny
+    permission: hub.tpdeny
+    permission-message: You don't have this permission.
+  tpaccept:
+    description: Allows you to accept a players teleport request
+    usage: /tpaccept
+    permission: hub.tpaccept
+    permission-message: You don't have this permission.
+  addserver:
+    description: Allows you to add worlds to the server list.
+    usage: /addserver [world]
+    permission: hub.addserver
+    permission-message: You don't have this permission.
+  delserver:
+    description: Allows you to remove worlds from the server list.
+    usage: /delserver [server]
+    permission: hub.delserver
+    permission-message: You don't have this permission.
+  linkworld:
+    description: Allows you to link worlds to a server.
+    usage: /linkworld [server] [world]
+    permission: hub.linkworld
+    permission-message: You don't have this permission.
+  unlinkworld:
+    description: Allows you to link worlds to a server.
+    usage: /unlinkworld [server] [world]
+    permission: hub.unlinkworld
+    permission-message: You don't have this permission.
+  server:
+    description: Allows you to join a server.
+    usage: /server [server]
+    permission: hub.server
+    permission-message: You don't have this permission.
+  servers:
+    description: Allows you to list the servers.
+    usage: /servers
+    permission: hub.servers
+    permission-message: You don't have this permission.
+  hideserver:
+    description: Allows you to hide a server.
+    usage: /hideserver [server]
+    permission: hub.hideserver
+    permission-message: You don't have this permission.
+  lockserver:
+    description: Allows you to lock a server.
+    usage: /lockserver [server]
+    permission: hub.lockserver
+    permission-message: You don't have this permission.
+  evacserver:
+    description: Allows you to evac a server.
+    usage: /evacserver [server]
+    permission: hub.evac
+    permission-message: You don't have this permission.
+  unhideserver:
+    description: Allows you to hide a server.
+    usage: /unhideserver [server]
+    permission: hub.unhideserver
+    permission-message: You don't have this permission.
+  unlockserver:
+    description: Allows you to lock a server.
+    usage: /unlockserver [server]
+    permission: hub.unlockserver
+    permission-message: You don't have this permission.
+  sethome:
+    description: Allows you to set a home.
+    usage: /sethome
+    permission: hub.home
+    permission-message: You don't have this permission.
+  homes:
+    description: Allows you to see your homes.
+    usage: /homes
+    permission: hub.homes
+    permission-message: You don't have this permission.
+  home:
+    description: Allows you to see your homes.
+    usage: /home
+    permission: hub.home
+    permission-message: You don't have this permission.
+  back:
+    description: Allows you to go back to from where you teleported.
+    usage: /back
+    permission: hub.back
+    permission-message: You don't have this permission.

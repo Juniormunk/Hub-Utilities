@@ -1,0 +1,31 @@
+
+#  *DO NOT EDIT THIS CONFIG WHILE THE SERVER IS RUNNING IT WILL BE DELETED/REPLACED ON SERVER STOP OR /RELOAD
+#
+#  *Data saved by the /sethub command to be used by the /hub command
+#
+#  *Uncomment this to use the server selector 
+#  ServerData:
+#    Servers:
+#    - Survival
+#    - Creative
+#    Survival:
+#      Material: REDSTONE
+#      Slot: 4
+#    Creative:
+#      Material: WHITE_WOOL
+#      Slot: 4
+
+hub:
+  x:
+  y:
+  z:
+  yaw:
+  pitch:
+  world:
+  
+homes:
+  normal: 3
+  vip: 5
+  vip+: 7
+  admin: 10
+
